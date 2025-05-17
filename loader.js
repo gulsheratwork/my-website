@@ -1,12 +1,12 @@
-(function () {
-    // Create the iframe
-    const iframe = document.createElement('iframe');
-    iframe.src = 'https://gulsheratwork.github.io/my-website/';
-    iframe.style.width = '100%';
-    iframe.style.height = '650px';  // Adjust height as needed
-    iframe.style.border = 'none';
-    iframe.style.zIndex = '50000';
+// Add CSS file
+const link = document.createElement("link");
+link.rel = "stylesheet";
+link.crossOrigin = "anonymous";
+link.href = "/assets/index-5AoJtPZU.css";
+document.head.appendChild(link);
 
-    // Append iframe to the body
-    document.body.appendChild(iframe);
-})();
+// Add JS file
+const script = document.createElement("script");
+script.src = "https://chat.fluxigo.com/assets/index-Ctn4524Z.js";
+script.crossOrigin = "anonymous";
+document.body.appendChild(script);
